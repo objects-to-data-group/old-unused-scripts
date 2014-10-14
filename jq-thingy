@@ -11,7 +11,7 @@
 parallel -j3 --progress --delay 0.01 --results effinresults "curl -sL "\
 "'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=humanities'"\
 "'&begin_date={1}0101&end_date={1}1231&page={2}&api-key='"\
-"'9d6b781a47b086503f876d37374f7125:17:69906641'" ::: {1851..1900} ::: {0..99} > /dev/null
+"'Aaaaaaaaappppppiiiiii'" ::: {1851..1900} ::: {0..99} > /dev/null
 # install tree -> Terminal: brew install tree
 # lets look at the beautifull file tree:
 tree effinresults | head
