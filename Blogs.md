@@ -1,3 +1,5 @@
+Originally created by: CSleutel
+
 This read-me file was written before we discovered that the 'Print_page' field was a better way to filter between articles that were published in the paper version of the newspaper and the digital one (or other sources).
 
 Blogs
